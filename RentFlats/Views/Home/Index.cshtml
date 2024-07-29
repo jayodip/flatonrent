@@ -1,0 +1,31 @@
+﻿@model IEnumerable<RentFlats.Application.Dtos.FlatDto>
+
+@{
+    ViewData["Title"] = "Flats";
+}
+
+
+<h1>Flats</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-secondary">Create New</a>
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="card m-3" style="width: 18rem;">
+            <img src="home.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@item.Title</h5>
+                <h5 class="card-title">@item.Price zł/month</h5>
+                <p class="card-text">@item.City | @item.PhoneNumber</p>
+                <a class="btn btn-primary" asp-controller="Flat" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                @if (item.IsEditable)
+                {
+                    <a class="btn btn-outline-secondary" asp-controller="Flat" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                }
+            </div>
+        </div>
+    }
+</div>

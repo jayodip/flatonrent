@@ -1,0 +1,15 @@
+C:\c# nauka\RentFlats\RentFlats.Application\bin\Debug\net7.0\RentFlats.Application.deps.json
+C:\c# nauka\RentFlats\RentFlats.Application\bin\Debug\net7.0\RentFlats.Application.dll
+C:\c# nauka\RentFlats\RentFlats.Application\bin\Debug\net7.0\RentFlats.Application.pdb
+C:\c# nauka\RentFlats\RentFlats.Application\bin\Debug\net7.0\RentFlats.Domain.dll
+C:\c# nauka\RentFlats\RentFlats.Application\bin\Debug\net7.0\RentFlats.Domain.pdb
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.csproj.AssemblyReference.cache
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.AssemblyInfoInputs.cache
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.AssemblyInfo.cs
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.csproj.CoreCompileInputs.cache
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.csproj.CopyComplete
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.dll
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\refint\RentFlats.Application.dll
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\RentFlats.Application.pdb
+C:\c# nauka\RentFlats\RentFlats.Application\obj\Debug\net7.0\ref\RentFlats.Application.dll

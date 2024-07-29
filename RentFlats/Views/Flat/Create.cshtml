@@ -1,0 +1,69 @@
+﻿@using RentFlats.Application.CQRS.Commands.CreateFlat
+
+@model CreateFlatCommand
+<h1>Create an AD for renting a flat</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form action="/Flat/Create" method="post">
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="Title">Title of your AD</label>
+                <input class="form-control" type="text" asp-for="Title">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="Description">Description</label>
+                <input class="form-control" type="text" asp-for="Description">
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="Price">Price per month</label>
+                <input class="form-control" type="text" asp-for="Price">
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="FlatArea">Flat Area (m²)</label>
+                <input class="form-control" type="text" asp-for="FlatArea">
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="City">City</label>
+                <input class="form-control" type="text" asp-for="City">
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="Street">Street</label>
+                <input class="form-control" type="text" asp-for="Street">
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="FlatNumber">Flat Number</label>
+                <input class="form-control" type="text" asp-for="FlatNumber">
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="PostalCode">Postal Code</label>
+                <input class="form-control" type="text" asp-for="PostalCode">
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="PhoneNumber">Phone Number</label>
+                <input class="form-control" type="text" asp-for="PhoneNumber">
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="Email">Email</label>
+                <input class="form-control" type="text" asp-for="Email">
+            </div>
+
+            <div class="form-group mb-3">
+                <input type="submit" value="Create" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
